@@ -2,7 +2,7 @@
 
 
 /*
-Nota: nenhuma informação contida aqui 'uma verdade absoluta, se eu estiver errado
+Nota: nenhuma informação contida aqui é uma verdade absoluta, se eu estiver errado
 me corrija, que estou aprendendo
 
 
