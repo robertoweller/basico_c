@@ -1,4 +1,3 @@
-#include <iostream>
 #include <stdio.h>
 #include <stdlib.h> 
 
@@ -28,34 +27,21 @@ básicamente eu penso que seja uma funçõ declara obrigatória do c
 no programa acredito que tudo (ou quase tudo), tem que terminar em ";",
 mas preciso avançar nos estudo para ter certeza
 */
-int main(){
+int main(int argc, char* argv[]){
 
     // Aqui a váriavel é declarada como um inteiro 
-    int numero;
 
-    int resposta;
+    short int resposta;
 
-    printf("Dá para usar o printf para printar\n");
+    printf("Dá para usar o printf para escrever na tela\n");
 
     // Escreve na tela a mensagem, "\n" é um comando em bits, para pular de linha
     // Entendendo os merge(s)
-    std::cout << "\n Um print no c é muito dificil (de 0 a 10)? \n";
+    printf("\n Um print no c é muito dificil (de 0 a 10)? \n");
 
-    scanf("%r", &resposta)
+    scanf("%hd", &resposta);
 
-    //std:: cin >> resposta;
-
-    std:: cout << "Sério que " << resposta << "?\n\n";
-
-    std::cout << "Bem vindo ao meu programa de estudo em c \n\n";
-
-    std:: cout << "Digite um número como exemplo, por favor... ";
-
-    // cin vai espera o que o usuário digitar e vai atribuir a váriavel numero
-    std:: cin >> numero;
-    
-    // por fim vai escrever na tela a mensagem e a váriavel digitada
-    std:: cout << "Número digitado foi " << numero << "\n";
+    printf("\n Sério que %hd?\n", resposta);
 
     // Todo programa precisa retornar algo
     return 0;
