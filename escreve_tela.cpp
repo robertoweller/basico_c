@@ -1,5 +1,5 @@
-# include <iostream>
-
+#include <iostream>
+#include <stdio.h>
 
 /*
 Nota: nenhuma informação contida aqui é uma verdade absoluta, se eu estiver errado
@@ -32,7 +32,18 @@ int main(){
     // Aqui a váriavel é declarada como um inteiro 
     int numero;
 
+    int resposta;
+
+    //printf("Dá para usar o printf para printar\n")
+
     // Escreve na tela a mensagem, "\n" é um comando em bits, para pular de linha
+    // Entendendo os merge(s)
+    std::cout << "\n Um print no c é muito dificil (de 0 a 10)? \n";
+
+    std:: cin >> resposta;
+
+    std:: cout << "Sério que " << resposta << "?\n\n";
+
     std::cout << "Bem vindo ao meu programa de estudo em c \n\n";
 
     std:: cout << "Digite um número como exemplo, por favor... ";
