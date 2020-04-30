@@ -1,5 +1,6 @@
 #include <iostream>
 #include <stdio.h>
+#include <stdlib.h> 
 
 /*
 Nota: nenhuma informação contida aqui é uma verdade absoluta, se eu estiver errado
