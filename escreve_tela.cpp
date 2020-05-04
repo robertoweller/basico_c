@@ -27,7 +27,7 @@ básicamente eu penso que seja uma funçõ declara obrigatória do c
 no programa acredito que tudo (ou quase tudo), tem que terminar em ";",
 mas preciso avançar nos estudo para ter certeza
 */
-int main(int argc, char* argv[]){
+int main(){
 
     // Aqui a váriavel é declarada como um inteiro 
 
