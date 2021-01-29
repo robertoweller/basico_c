@@ -40,7 +40,11 @@ int main(){
     printf("\n Um print no c é muito dificil (de 0 a 10)? \n");
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     scanf("%hd", &resposta);
+=======
+    scanf("%r", &resposta);
+>>>>>>> Stashed changes
 =======
     scanf("%r", &resposta);
 >>>>>>> Stashed changes
