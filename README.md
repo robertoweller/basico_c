@@ -1,5 +1,5 @@
-# Básico em c e c++
- Tudo que eu encontrar na internet, vou por aqui
+# Básico em C e C++
+ Tudo que eu encontrar na internet, vou por aqui.
 
  ## Programas em c e c++
  É minha primeira vez programando em c, achei de inicio diferente e difício, mas o legal
