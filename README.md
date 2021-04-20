@@ -1,4 +1,4 @@
-# Básico em c e c++
+# Básico em C e C++
  Tudo que eu encontrar na internet, vou por aqui
 
  ## Programas em c e c++
